@@ -11,8 +11,10 @@ Terminal
         - select "custom shell" in the dropdown and type "/bin/bash" in the text box
     - change terminal styling
         - BashIt: https://github.com/Bash-it/bash-it 
-    
-
+- Homebrew
+    - In terminal: ` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" `
+    - Add Homebrew to PATH: ` (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/alexander.nigro/.bash_profile `
+    - ` eval "$(/opt/homebrew/bin/brew shellenv)" `
 Window Management
 - ShiftIt - Update: no longer regularly maintained (ref: https://github.com/fikovnik/ShiftIt/issues/296), also doesnt work with newest Mac OS version?
 - some ShiftIt alternatives:
@@ -36,3 +38,7 @@ Coding
 
 Password Management
 - 1password + 1password CLI
+    - https://www.1password.com
+    - Add chrome extension: google search "chrome 1password" and select the option provided by google
+    - Install 1password CLI: https://developer.1password.com/docs/cli/get-started/ 
+    
