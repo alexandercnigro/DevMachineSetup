@@ -15,6 +15,9 @@ Terminal
     - In terminal: ` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" `
     - Add Homebrew to PATH: ` (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/alexander.nigro/.bash_profile `
     - ` eval "$(/opt/homebrew/bin/brew shellenv)" `
+- Fzf
+    - filters files in current directory by text match
+    - `brew install fzf`
 Window Management
 - ShiftIt - Update: no longer regularly maintained (ref: https://github.com/fikovnik/ShiftIt/issues/296), also doesnt work with newest Mac OS version?
 - some ShiftIt alternatives:
