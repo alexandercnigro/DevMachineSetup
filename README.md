@@ -19,9 +19,10 @@ Terminal
     - filters files in current directory by text match
     - `brew install fzf`
 Window Management
-- ShiftIt - Update: no longer regularly maintained (ref: https://github.com/fikovnik/ShiftIt/issues/296), also doesnt work with newest Mac OS version?
+- ~~ShiftIt - Update: no longer regularly maintained (ref: https://github.com/fikovnik/ShiftIt/issues/296), also doesnt work with newest Mac OS version?~~
 - some ShiftIt alternatives:
     - Hammerspoon with ShiftIt-like config: https://github.com/peterklijn/hammerspoon-shiftit
+        - use the `install-window-mgr.sh` script
     - Rectangle: https://rectangleapp.com/
     - Infinite Windows: https://github.com/leafac/infinite-windows 
 
