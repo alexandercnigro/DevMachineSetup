@@ -4,17 +4,17 @@ Setup instructions for mac machines for the purpose of software development
 
 Items needed:
 
-Terminal
+- Homebrew
+    - In terminal: ` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" `
+    - Add Homebrew to PATH: ` (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/alexander.nigro/.bash_profile `
+    - ` eval "$(/opt/homebrew/bin/brew shellenv)" `
 - ITerm2
+    - `brew install iterm2 --cask`
     - change shell to bash
         - iterm2 > preferences > profiles > command
         - select "custom shell" in the dropdown and type "/bin/bash" in the text box
     - change terminal styling
         - BashIt: https://github.com/Bash-it/bash-it 
-- Homebrew
-    - In terminal: ` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" `
-    - Add Homebrew to PATH: ` (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/alexander.nigro/.bash_profile `
-    - ` eval "$(/opt/homebrew/bin/brew shellenv)" `
 - Fzf
     - filters files in current directory by text match
     - `brew install fzf`
